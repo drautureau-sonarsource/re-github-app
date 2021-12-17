@@ -1,0 +1,5 @@
+# IDEA (IntelliJ, PyCharm, ...)
+.idea/
+
+# AWS CDK
+cdk.out/

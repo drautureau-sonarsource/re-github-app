@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "re-github-app"
+version = "0.1.0"
+description = "Release engineering GitHub application"
+authors = ["David Rautureau <david.rautureau@sonarsource.com>"]
+license = "SonarSource SA"
+
+[tool.poetry.scripts]
+
+[tool.poetry.dependencies]
+aws-cdk-lib = "*"
+constructs = "*"
+"aws-cdk.aws-apigatewayv2-alpha" = "*"
+"aws-cdk.aws-apigatewayv2-integrations-alpha" = "*"
+"aws-cdk.aws-lambda-python-alpha" = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
