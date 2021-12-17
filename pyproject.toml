@@ -8,6 +8,8 @@ license = "SonarSource SA"
 [tool.poetry.scripts]
 
 [tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "*"
 aws-cdk-lib = "*"
 constructs = "*"
 "aws-cdk.aws-apigatewayv2-alpha" = "*"

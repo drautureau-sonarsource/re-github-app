@@ -3,3 +3,6 @@
 
 # AWS CDK
 cdk.out/
+
+# Python
+__pycache__/
